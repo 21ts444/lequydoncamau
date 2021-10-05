@@ -1,0 +1,11 @@
+.navigator a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding-top: 2px;
+    text-align: center;
+    background: url(../images/b03.html) -3px -3px;
+}
+.navigator a.actice {
+    background: url(../images/b03.html) -63px -3px;
+}#kehoachtuan h3{font-size:14px}#kehoachtuan .vietsua{padding:0;margin-bottom:0}div.kehoachtruong{position:relative;background-image:url('../images/kehoachtuan/Melamine-Impregnated-Paper.jpg');background-repeat:no-repeat;background-size:100% 100%;padding:5px;border:1px solid #0196e3;box-shadow:3px 3px 3px #97addd;margin-bottom:15px}div.kehoachtruong div.title{padding:5px 5px 15px 5px}div.kehoachtruong p.week{line-height:1.5em;text-align:center;color:#0B0B46;font-size:1.1em;font-weight:bolder}div.kehoachtruong h4{line-height:1.5em;text-align:center;font-style:italic;text-decoration:underline;font-size:14px;color:#0c12a0;font-weight:normal}div.kehoachtruong h5{text-indent:15px;padding:7px 0;text-decoration:underline;color:#fff;font-size:1.2em;background-image:url("../images/kehoachtuan/background.png");background-size:100% 100%;background-repeat:no-repeat;margin-bottom:0;font-weight:bolder}div.kehoachtruong div.common{padding-left:30px;color:#040461;background-color:#fff}div.kehoachtruong div.common{padding:10px 10px 10px 30px;border:2px solid #0b0b46;margin-bottom:15px}div.kehoachtruong ul{list-style-image:url('../images/kehoachtuan/camera_test.png');list-style-type:none;padding:0 0 0 20px;margin:0}div.kehoachtruong li{line-height:1.5em}div.kehoachtruong table{border-collapse:collapse;border:3px solid #000;color:#fff;clear:both;width:100%;font-size: 14px}div.kehoachtruong table thead th{background-color:#053377;padding:5px;text-align:center;border-bottom:2px solid #000}div.kehoachtruong table tbody td{padding:5px;color:#040461;background-color:#fff;border-bottom:1px dotted #000;}div.kehoachtruong table tbody td:first-child{font-weight:bolder;background-color:#c4d1e4;text-align: center;}

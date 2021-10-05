@@ -1,0 +1,29 @@
+
+
+<div id="idcomment" class="nv-fullbg">
+	<div class="row clearfix margin-bottom-lg">
+		<div class="col-xs-12 text-left">
+			<p class="comment-title"><em class="fa fa-comments">&nbsp;</em> Ý kiến bạn đọc</p>
+		</div>
+		<div class="col-xs-12 text-right">
+			<select id="sort" class="form-control">
+								<option value="0"  selected="selected">Sắp xếp theo bình luận mới</option>
+				<option value="1" >Sắp xếp theo bình luận cũ</option>
+				<option value="2" >Sắp xếp theo số lượt thích</option>
+			</select>
+		</div>
+	</div>
+	<div id="formcomment" class="comment-form">
+				<div class="alert alert-danger fade in">
+						<a title="Đăng nhập" href="#" onclick="return loginForm('');">Bạn cần đăng nhập với tư cách là <strong>Thành viên chính thức</strong> để có thể bình luận</a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+var nv_url_comm = 'index195a.html?language=vi&amp;nv=comment&amp;module=ho-so&amp;area=245&amp;id=2636&amp;allowed=4&amp;checkss=80bb8dd3f631090b262f4b5758093478&amp;perpage=5';
+$("#sort").change(function() {
+	$.post(nv_url_comm + '&nocache=' + new Date().getTime(), 'sortcomm=' + $('#sort').val() , function(res) {
+		$('#idcomment').html(res);
+	});
+});
+</script>
